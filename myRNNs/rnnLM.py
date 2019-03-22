@@ -314,7 +314,7 @@ if __name__ == "__main__":
         num_words,
         embedding_matrix=embedding_matrix,
         rnn_cells=RNN_CELLS,
-        trainable=False,
+        trainable=True,
         rnn_layers=1)
     print(model.summary())
 
